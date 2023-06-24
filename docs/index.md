@@ -12,7 +12,11 @@
 ### Properties
 
 * `id` required
-* `mesh` required 
-    * native_plane
-    * native_sphere
-    * native_cube
+* `mesh` required
+  May contains :
+    * `native_plane`
+    * `native_sphere`
+    * `native_cube`
+    * or a Mesh ID.
+* `subset` (optional). If defined, the group name.
+* `diffuse` Identifier of the texture.
